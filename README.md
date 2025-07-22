@@ -16,3 +16,4 @@ Eg: While TF-IDF heavily penalizes the cookbook chapters for having lower keywor
 <img width="1032" height="474" alt="image" src="https://github.com/user-attachments/assets/8a21abdb-0994-4e54-9be7-25005be8245d" />
 <img width="996" height="333" alt="image" src="https://github.com/user-attachments/assets/f603e6ef-e5fe-4fb8-8844-73d7fd930450" />
 
+<img width="1391" height="888" alt="image" src="https://github.com/user-attachments/assets/d5152181-cf32-46c6-8750-3548c14eff5a" />
