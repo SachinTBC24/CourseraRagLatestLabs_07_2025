@@ -17,3 +17,5 @@ Eg: While TF-IDF heavily penalizes the cookbook chapters for having lower keywor
 <img width="996" height="333" alt="image" src="https://github.com/user-attachments/assets/f603e6ef-e5fe-4fb8-8844-73d7fd930450" />
 
 <img width="1391" height="888" alt="image" src="https://github.com/user-attachments/assets/d5152181-cf32-46c6-8750-3548c14eff5a" />
+
+C1M3_Ungraded_Lab_2.ipynb go through this file for chunking strategy.
