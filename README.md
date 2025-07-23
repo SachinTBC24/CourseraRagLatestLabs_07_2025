@@ -19,3 +19,7 @@ Eg: While TF-IDF heavily penalizes the cookbook chapters for having lower keywor
 <img width="1391" height="888" alt="image" src="https://github.com/user-attachments/assets/d5152181-cf32-46c6-8750-3548c14eff5a" />
 
 C1M3_Ungraded_Lab_2.ipynb go through this file for chunking strategy.
+
+C1M3_Assignment.ipynb go through this file for Metadata filtering,  Semantic search, BM25 Serach, Hybrid search, Reranking with Weaviate API.
+
+
