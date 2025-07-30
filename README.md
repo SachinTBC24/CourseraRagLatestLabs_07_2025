@@ -103,6 +103,8 @@ def generate_with_single_input(prompt: str,
         raise Exception(f"Failed to get correct output dict. Please try again. Error: {e}")
     return output_dict    
 <img width="1819" height="897" alt="image" src="https://github.com/user-attachments/assets/e7732e78-a85f-4aa9-92ed-72d809babf1e" />
+<img width="1757" height="944" alt="image" src="https://github.com/user-attachments/assets/fe9d9d35-dd74-4ef1-a75a-b523b20a87ed" />
+
 
 
 
