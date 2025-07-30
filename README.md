@@ -22,4 +22,46 @@ C1M3_Ungraded_Lab_2.ipynb go through this file for chunking strategy.
 
 C1M3_Assignment.ipynb go through this file for Metadata filtering,  Semantic search, BM25 Serach, Hybrid search, Reranking with Weaviate API.
 
+Another way that will be largely used in this modules is to pass a keyword dictionary as parameters. You need to pass it as **kwargs
+
+kwargs = {"prompt": "Write a poem about a flying rabbit.", 'top_p': 0.7, 'temperature': 1.4, 'max_tokens': 100}
+generate_with_single_input(**kwargs)
+
+prompt: Input text for the model.
+-> temperature: Controls randomness; lower values = more deterministic.
+-> top_p: Controls diversity; higher values = more varied outputs.
+-> max_new_tokens: Sets the maximum number of tokens in the response.
+
+def generate_params_dict(
+    prompt: str, 
+    temperature: float = None, 
+    role = 'user',
+    top_p: float = None,
+    max_tokens: int = 500,
+    model: str = "meta-llama/Llama-3.2-3B-Instruct-Turbo"
+):
+    """
+    Call an LLM with different sampling parameters to observe their effects.
+    
+    Args:
+        prompt: The text prompt to send to the model
+        temperature: Controls randomness (lower = more deterministic)
+        top_p: Controls diversity via nucleus sampling
+        max_tokens: Maximum number of tokens to generate
+        model: The model to use
+        
+    Returns:
+        The LLM response
+    """
+    
+    # Create the dictionary with the necessary parameters
+    kwargs = {"prompt": prompt, 'role':role, "temperature": temperature, "top_p": top_p, "max_tokens": max_tokens, 'model': model} 
+
+
+    return kwargs
+
+    
+
+
+
 
